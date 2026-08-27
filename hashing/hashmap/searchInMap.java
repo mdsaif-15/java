@@ -2,6 +2,7 @@ import java.util.*;
 
 public class searchInMap {
     public static void main(String[] args) {
+        
 
         HashMap<Integer, String> map = new HashMap<>();
 
