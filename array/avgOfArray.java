@@ -6,10 +6,10 @@ public class avgOfArray {
         double avg;
         int marks[] = new int[6];
 
-        marks[0] = 90;
+        marks[0] = 93;
         marks[1] = 89;
         marks[2] = 57;
-        marks[3] = 84;
+        marks[3] = 81;
         marks[4] = 78;
         marks[5] = 86;
 
