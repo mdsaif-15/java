@@ -7,7 +7,7 @@ public class ArraySum {
         array[2] = 13;
         array[3] = 14;
         array[4] = 15;
-        for (int i = 0; i <= 5; i++) {
+        for (int i = 0; i < array.length; i++) {
             sum += array[i];
         }
         System.err.println("the total sum of the array is : " + sum);

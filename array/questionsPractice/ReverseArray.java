@@ -8,10 +8,17 @@ public class ReverseArray {
         array[3] = 14;
         array[4] = 15;
         for (int i = 0; i <= array.length - 1; i++) {
-            ReverseArray[i] = array[array.length - i];
+            ReverseArray[i] = array[array.length - 1 - i];
         }
-        System.err.println("The orignal array is :" + array);
-        System.err.println("the reverse array is :" + ReverseArray);
+        System.err.print("Original : ");
+        for (int i = 0; i < array.length; i++) {
+            System.err.print(array[i] + " ");
+        }
+        System.err.println();
+        System.err.print("Reverse : ");
+        for (int i = 0; i < ReverseArray.length; i++) {
+            System.err.print(ReverseArray[i] + " ");
+        }
     }
 
 }
