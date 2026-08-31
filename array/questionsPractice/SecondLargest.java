@@ -7,7 +7,9 @@ public class SecondLargest {
             if (Array[i] > max && Array[i] > secondMax) {
                 secondMax = max;
                 max = Array[i];
-                
+
+            } else if (Array[i] < max && Array[i] > secondMax) {
+                secondMax = Array[i];
             }
         }
         System.out.println(secondMax);
