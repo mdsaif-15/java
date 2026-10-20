@@ -3,7 +3,6 @@ import java.util.*;
 public class searchInMap {
     public static void main(String[] args) {
         
-
         HashMap<Integer, String> map = new HashMap<>();
 
         map.put(1, "saif");
@@ -14,7 +13,5 @@ public class searchInMap {
 
         System.out.println(map);
         System.out.println(map.get(5));
-
     }
-
 }
